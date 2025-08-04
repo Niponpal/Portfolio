@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/Style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/images/fronts/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/froala-editor@latest/css/froala_editor.pkgd.min.css" rel="stylesheet"
+            type="text/css" />
+  
+</head>
+<body>
+<!-- Navbar Area Start-->
+   <nav style="position: sticky;">
+    <div class="Nav_bar">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <!-- Left side: brand -->
+          <a class="navbar-brand fw-bold" href="index.html">Portfo<span class="Portfolio_Spain">lio.</span> </a>
+    
+          <!-- Toggle button for small screens -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <!-- Right side: nav menu -->
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Skills.html">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact.html">Contact</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="assets/images/Nipon Chandra pal .pdf">Download CV</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+   </nav>
+   <!-- Navbar Area End-->
+
+   <!-- Header Area Start-->
+   <header class="header-bg">
+    <div class="container mt-4">
+      <div class="row">
+        <!-- Left Side (Text) -->
+        <div class="col-md-6 d-flex align-items-center">
+          <div class="main_header p-4">
+            <h2 class="h_text">Hello, my name is,</h2>
+            <h1 class="text-primary name-text">Nipon Chandra Pal</h1>
+            <div class="typewriter fs-3">
+              And I'm a <span id="role"></span>
+            </div>
+          </div>
+        </div>
+        <!-- Right Side (Image or Any Content) -->
+        <div class="col-md-6 d-flex justify-content-center align-items-center mt-4">
+          <img 
+            src="assets/images/image-removebg-preview (3).png" 
+            alt="Nipon Chandra Pal" 
+           class="img-fluid rounded-pill"
+            style="width: 450px; height: 550px; object-fit: cover; opacity: 0.9;">
+        </div>       
+      </div>
+      <!----------------MY CV------------------------------>
+   <a  href="assets/images/Nipon Chandra pal .pdf" class="btn btn-primary btn-lg mx-4">
+    Download CV
+  </a>
+    </div>
+  </header>
+<!----------------About Areat Start------------------------------>
+
+<header class="About">
+<div class="About-main mt-5">
+  <div class="container">
+  <h2 class="About-text text-center text-danger">About me</h2>
+  <div class="d-flex align-items-center justify-content-center my-3">
+    <span class="mx-2 fw-bold">——</span>
+    <h3 class="m-0 text-info">Who I am</h3>
+    <span class="mx-2 fw-bold">——</span>
+  </div>
+  <div class="row align-items-center">
+    <!-- Text Column -->
+    <div class="col-md-6">
+      <div class="text-area p-4">
+        <h3 class="mb-3">I'm Nipon Chandra Pal –  Software Developer & SEO Expert</h3>
+        <p>Hello! I’m <strong>Nipon Chandra Pal</strong>, a passionate and dedicated software developer with expertise in modern web technologies and application development. I specialize in building creative, efficient, and user-friendly software solutions that drive real-world impact.</p>
+        <p>With strong hands-on experience in <strong>C#, ASP.NET MVC, Blazor WebAssembly</strong>, and <strong>SQL Server</strong>, I actively develop projects such as Blood Management Systems and Library Management Systems, focusing on scalable and maintainable code.</p>
+        <p>I am committed to continuous learning, problem-solving, and leveraging cutting-edge technologies to deliver high-quality software products.</p>
+        <p>I am also an <strong>SEO expert</strong>, skilled in optimizing content and websites to improve visibility and search engine rankings.</p>
+      </div>
+    </div>
+    <!-- Image Column -->
+    <div class="col-md-6 d-flex justify-content-center">
+      <img src="assets/images/Nipon%20Chandra%20Pal.jpeg" 
+           alt="Nipon Chandra Pal" 
+           class="img-fluid rounded-circle shadow" 
+           style="width: 70%; height: auto; object-fit: cover;">
+    </div>
+  </div>
+  
+  </div>
+</div>
+</header>
+  <!----------------About Areat End------------------------------>
+  <!----------------My Services Areat Start------------------------------>
+
+  <header class="bg-dark mb-5">
+    <div class="My-services mt-5 mb-4">
+      <div class="container">
+      <div class="d-flex align-items-center justify-content-center my-3">
+        <span class="mx-2 fw-bold">——</span>
+        <h3 class="m-0 text-danger mt-4">My Services</h3>
+        <span class="mx-2 fw-bold">——</span>
+      </div>
+      <div class="row ">
+        <div class="col-md-4">
+          <div class="card text-center p-3 bg-dark ">
+            <!-- Icon styled in white -->
+            <i class="bi bi-star-fill fs-1 text-warning"></i>
+            <div class="card-body text-white">
+              <h5 class="card-title">ASP DOT NET</h5>
+              <p class="card-text">
+               My Services C#, ASP.NET MVC, Blazor WebAssembly, and SQL Server,
+              </p>
+              <a href="#" class="btn btn-primary">Contact Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card text-center p-3 bg-dark ">
+            <!-- Icon styled in white -->
+            <i class="bi bi-star-fill fs-1 text-warning"></i>
+            <div class="card-body text-white">
+              <h5 class="card-title">Bootstrap </h5>
+              <p class="card-text">
+               My Completed Bootstrap projects such as Blood Management Systems and Library Management Systems, focusing on scalable and maintainable code
+              </p>
+              <a href="#" class="btn btn-primary">Contact Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card text-center p-3 bg-dark ">
+            <!-- Icon styled in white -->
+            <i class="bi bi-star-fill fs-1 text-warning"></i>
+            <div class="card-body text-white">
+              <h5 class="card-title">SEO Expert</h5>
+              <p class="card-text">
+                 optimizing content and websites to improve visibility and search engine rankings.
+              </p>
+              <a href="#" class="btn btn-primary">Contact Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 my-4">
+          <div class="card text-center p-3 bg-dark ">
+            <!-- Icon styled in white -->
+            <i class="bi bi-star-fill fs-1 text-warning"></i>
+            <div class="card-body text-white">
+              <h5 class="card-title">MS</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Contact Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 my-4">
+          <div class="card text-center p-3 bg-dark ">
+            <!-- Icon styled in white -->
+            <i class="bi bi-star-fill fs-1 text-warning"></i>
+            <div class="card-body text-white">
+              <h5 class="card-title">Full Stack Developer</h5>
+              <p class="card-text">
+               With strong hands-on experience in C#, ASP.NET MVC, Blazor WebAssembly, SQL Server, Bootstrap
+              </p>
+              <a href="#" class="btn btn-primary">Contact Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 my-4">
+          <div class="card text-center p-3 bg-dark ">
+            <!-- Icon styled in white -->
+            <i class="bi bi-star-fill fs-1 text-warning"></i>
+            <div class="card-body text-white">
+              <h5 class="card-title">Card Title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Contact Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 my-4">
+          <div class="card text-center p-3 bg-dark ">
+            <!-- Icon styled in white -->
+            <i class="bi bi-star-fill fs-1 text-warning"></i>
+            <div class="card-body text-white">
+              <h5 class="card-title">Card Title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Contact Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 my-4">
+          <div class="card text-center p-3 bg-dark ">
+            <!-- Icon styled in white -->
+            <i class="bi bi-star-fill fs-1 text-warning"></i>
+            <div class="card-body text-white">
+              <h5 class="card-title">Card Title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Contact Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 my-4">
+          <div class="card text-center p-3 bg-dark ">
+            <!-- Icon styled in white -->
+            <i class="bi bi-star-fill fs-1 text-warning"></i>
+            <div class="card-body text-white">
+              <h5 class="card-title">Card Title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Contact Now</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      </div>
+    </div>
+    </header>
+  <!----------------My Services Area End------------------------------>
+  <!----------------My Skill Area Start------------------------------>
+  <section class="skill-area my-5" aria-label="Services Section">
+    <div class="container">
+      <!-- Main Heading -->
+      <h1 class="text-center fw-bold text-dark mb-4">My Skills</h1>
+  
+      <!-- Sub-heading with separators -->
+      <div class="d-flex flex-wrap align-items-center justify-content-center mt-5">
+        <span class="mx-2 fw-bold ">——</span>
+        <h3 class="text-danger m-0">My Services</h3>
+        <span class="mx-2 fw-bold ">——</span>
+      </div>
+      <div class="row mt-5">
+        <!-- Left Column: Skill Progress Bars -->
+        <div class="col-md-6 ">
+          <div class="mb-3">
+            <label class="fw-bold">HTML <span class="float-end">99%</span></label>
+            <div class="progress">
+              <div class="progress-bar bg-success" style="width: 99%;">99%</div>
+            </div>
+          </div>
+  
+          <div class="mb-3">
+            <label class="fw-bold">CSS <span class="float-end">99%</span></label>
+            <div class="progress">
+              <div class="progress-bar bg-success" style="width: 99%;">99%</div>
+            </div>
+          </div>
+  
+          <div class="mb-3">
+            <label class="fw-bold">JavaScript <span class="float-end">85%</span></label>
+            <div class="progress">
+              <div class="progress-bar bg-info" style="width: 85%;">85%</div>
+            </div>
+          </div>
+  
+          <div class="mb-3">
+            <label class="fw-bold">C# <span class="float-end">80%</span></label>
+            <div class="progress">
+              <div class="progress-bar bg-warning" style="width: 80%;">80%</div>
+            </div>
+          </div>
+  
+          <div class="mb-3">
+            <label class="fw-bold">SQL <span class="float-end">50%</span></label>
+            <div class="progress">
+              <div class="progress-bar bg-danger" style="width: 60%;">50%</div>
+            </div>
+          </div>
+  
+          <div class="mb-3">
+            <label class="fw-bold">.NET <span class="float-end">75%</span></label>
+            <div class="progress">
+              <div class="progress-bar bg-danger" style="width: 75%;">75%</div>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label class="fw-bold">SEO <span class="float-end">80%</span></label>
+            <div class="progress">
+              <div class="progress-bar bg-danger" style="width: 80%;">80%</div>
+            </div>
+          </div>
+        </div>
+          <!-- right Column: Skill Area -->
+        <div class="col-md-6">
+          <p class="fs-5">
+            I’m <strong>Nipon Chandra Pal</strong>, a passionate web developer and problem solver. 
+            I specialize in front-end development using HTML, CSS, and JavaScript, while also exploring backend technologies like C#, SQL, and the .NET framework.
+          </p>
+          <p class="fs-6">
+            My journey includes building responsive websites, learning modern design patterns, and continuously improving my skills to deliver impactful user experiences. I'm committed to both creativity and continuous learning.
+          </p>
+
+          <p class="fs-6">
+            On-page SEO includes keyword optimization, meta tags, headings, internal linking, and responsive design. Off-page SEO focuses on backlinks, domain authority, social signals, and content marketing. Together, these SEO strategies improve search engine rankings, increase organic traffic, and boost website visibility across Google and other search engines.
+          </p>     
+        </div>
+    </div>
+  </section>
+  <!----------------My Skill Area End------------------------------>
+  <!----------------My Team Area Start------------------------------>
+  <section>
+    <div class="my-team mt-5">
+      <div class="container">
+        <h1 class="text-center fw-bold text-dark mb-4">My Team</h1>
+          <!-- Sub-heading with Wjp woth me -->
+      <div class="d-flex flex-wrap align-items-center justify-content-center mt-3">
+        <span class="mx-2 fw-bold ">——</span>
+        <h3 class="text-danger m-0">Who With Me</h3>
+        <span class="mx-2 fw-bold ">——</span>
+      </div>
+      <div class="row mt-5 ">
+        <div class="col-md-4">
+          <div class="card text-center">
+            <img src="./assets/images/Nipon Chandra Pal.png" 
+                 class="card-img-top rounded-circle mx-auto mt-3 border" 
+                 alt="Profile Image" 
+                 style="width: 200px; height: 250px; object-fit: cover; border: 4px solid #c94747 !important;">
+            <div class="card-body">
+              <h5 class="card-title">Nipon Chandra Pal</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <img src="./assets/images/Radhes.png" 
+                 class="card-img-top rounded-circle mx-auto mt-3 border" 
+                 alt="Profile Image" 
+                 style="width: 200px; height: 250px; object-fit: cover; border: 4px solid #c94747 !important;">
+            <div class="card-body">
+              <h5 class="card-title">Radesh Roy</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <img src="./assets/images/Shadin.jpeg" 
+                 class="card-img-top rounded-circle mx-auto mt-3 border" 
+                 alt="Profile Image" 
+                 style="width: 200px; height: 250px; object-fit: cover; border: 4px solid #c94747 !important;">
+            <div class="card-body">
+              <h5 class="card-title">Shadin Mohonto</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 my-4">
+          <div class="card text-center">
+            <img src="./assets/images/Nipon Chandra Pal.jpeg" 
+                 class="card-img-top rounded-circle mx-auto mt-3 border" 
+                 alt="Profile Image" 
+                 style="width: 200px; height: 250px; object-fit: cover; border: 4px solid #c94747 !important;">
+            <div class="card-body">
+              <h5 class="card-title">Card Title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 my-4">
+          <div class="card text-center">
+            <img src="./assets/images/Sofkul.jpeg" 
+                 class="card-img-top rounded-circle mx-auto mt-3 border" 
+                 alt="Profile Image" 
+                 style="width: 200px; height: 250px; object-fit: cover; border: 4px solid #c94747 !important;">
+            <div class="card-body">
+              <h5 class="card-title">Card Title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 my-4">
+          <div class="card text-center">
+            <img src="./assets/images/Nipon Chandra Pal.jpeg"
+                 class="card-img-top rounded-circle mx-auto mt-3 border" 
+                 alt="Profile Image" 
+                 style="width: 200px; height: 250px; object-fit: cover; border: 4px solid #c94747 !important;" alter="Nipon">
+            <div class="card-body">
+              <h5 class="card-title">Card Title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+      </div>
+    </div>
+  </section>
+    <!----------------My Team Area End------------------------------>
+    <!-- My Completed Project Area -->
+    <header>
+      <div class="my-team mt-5">
+      <div class="container">
+        <h1 class="text-center fw-bold text-dark mb-4">My Project</h1>
+          <!-- Sub-heading with Wjp woth me -->
+      <div class="d-flex flex-wrap align-items-center justify-content-center mt-3">
+        <span class="mx-2 fw-bold ">——</span>
+        <h3 class="text-danger m-0">My Completed Project</h3>
+        <span class="mx-2 fw-bold ">——</span>
+      </div>
+      <div class="row mt-5 ">
+        <div class="col-md-6">
+          <div class="card text-center">
+            <img src="./assets/images/BloodMS.png" 
+                 class="card-img-top  mx-auto mt-3 border" 
+                 alt="Profile Image" 
+                 style="width: 200px; height: 250px; object-fit: cover; border: 4px solid #252020 !important;">
+            <div class="card-body">
+              <h5 class="card-title">Blood Management Systems</h5>
+              <p class="card-text">
+                Blood Management Systems is a Digitals text to build on the card title and make up the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        
+         <div class="col-md-6">
+          <div class="card text-center">
+            <img src="./assets/images/SchoolMS.png" 
+                 class="card-img-top  mx-auto mt-3 border" 
+                 alt="Profile Image" 
+                 style="width: 200px; height: 250px; object-fit: cover; border: 4px solid #252020 !important;">
+            <div class="card-body">
+              <h5 class="card-title">School Management Systems</h5>
+              <p class="card-text">
+                School Management Systems is a Digitals text to build on the card title and make up the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        
+         <div class="col-md-6 mt-3">
+          <div class="card text-center">
+            <img src="./assets/images/BlogNest.png" 
+                 class="card-img-top  mx-auto mt-3 border" 
+                 alt="Profile Image" 
+                 style="width: 200px; height: 250px; object-fit: cover; border: 4px solid #252020 !important;">
+            <div class="card-body">
+              <h5 class="card-title">BlogNest Management Systems</h5>
+              <p class="card-text">
+                BlogNest Management Systems is a Digitals text to build on the card title and make up the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 mt-3">
+          <div class="card text-center">
+            <img src="./assets/images/BloodMS.png" 
+                 class="card-img-top  mx-auto mt-3 border" 
+                 alt="Profile Image" 
+                 style="width: 200px; height: 250px; object-fit: cover; border: 4px solid #252020 !important;">
+            <div class="card-body">
+              <h5 class="card-title">Hospital Management Systems</h5>
+              <p class="card-text">
+                Blood Management Systems is a Digitals text to build on the card title and make up the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      </div>
+    </div>
+    </header>
+
+
+    <section>
+       <div class="Contact-me mt-5">
+      <div class="container">
+        <h1 class="text-center fw-bold text-dark mb-4">Contact me</h1>
+          <!-- Sub-heading with Wjp woth me -->
+      <div class="d-flex flex-wrap align-items-center justify-content-center mt-3">
+        <span class="mx-2 fw-bold ">——</span>
+        <h3 class="text-danger m-0">get in Touch</h3>
+        <span class="mx-2 fw-bold ">——</span>
+      </div>
+
+ <div class="container mt-5 Contact-me">
+    <div class="row justify-content-center">
+        <!-- Contact Info Left Column -->
+        <div class="col-lg-6 col-md-8 col-sm-10 mb-4 p-4 border rounded bg-light shadow-sm">
+
+            <!-- Name -->
+            <div class="d-flex align-items-center mb-4">
+                <div class="Icons me-3">
+                    <i class="bi bi-people-fill"></i>
+                </div>
+                <div>
+                    <ul class="list-unstyled mb-0 name-filed">
+                        <li><strong>Name</strong></li>
+                        <li class="name-text">Nipon Chandra Pal</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Phone -->
+            <div class="d-flex align-items-center mb-4">
+                <div class="Icons me-3">
+                    <i class="bi bi-telephone-inbound-fill"></i>
+                </div>
+                <div>
+                    <ul class="list-unstyled mb-0 name-filed">
+                        <li><strong>Phone</strong></li>
+                        <li class="name-text">01706356852</li>
+                        <li class="name-text">01819352632</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Address -->
+            <div class="d-flex align-items-center mb-4">
+                <div class="Icons me-3">
+                    <i class="bi bi-geo-alt-fill"></i>
+                </div>
+                <div>
+                    <ul class="list-unstyled mb-0 name-filed">
+                        <li><strong>Address</strong></li>
+                        <li class="name-text">Dinajpur, Bangladesh</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Email -->
+            <div class="d-flex align-items-center mb-4">
+                <div class="Icons me-3">
+                    <i class="bi bi-envelope-at-fill"></i>
+                </div>
+                <div>
+                    <ul class="list-unstyled mb-0 name-filed">
+                        <li><strong>Email</strong></li>
+                        <li class="name-text">niponpal52@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Optional Right Column -->
+        <div class="col-lg-6 col-md-8 col-sm-10 text-center mb-4">
+            <div class="p-4 border rounded bg-light shadow-sm">
+            
+
+              <form asp-action="Create" method="post" class="p-4 shadow rounded bg-white">
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <label asp-for="Name" class="form-label"></label>
+            <input asp-for="Name" class="form-control" placeholder="Enter your name" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <div class="col-md-6">
+            <label asp-for="Email" class="form-label"></label>
+            <input asp-for="Email" type="email" class="form-control" placeholder="Enter your email" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Subject" class="form-label"></label>
+        <input asp-for="Subject" class="form-control" placeholder="Subject of your message" />
+        <span asp-validation-for="Subject" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Description" class="form-label"></label>
+        <textarea asp-for="Description" rows="4" class="form-control" placeholder="Write your message..." id="froalaEditor"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary w-100">Submit</button>
+</form>
+            </div>
+        </div>
+    </div>
+</div>
+    
+    </section>
+<!--Footer Area Start-->
+
+  <footer class="custom-footer text-white">
+  <div class="container d-flex flex-column align-items-center py-4">
+    <div class="mb-3">
+      <a href="https://www.facebook.com/share/1VNgzheVtn/?mibextid=qi2Omg" class="social-icon me-3"><i class="bi bi-facebook"></i></a>
+      <a href="https://github.com/Niponpal" class="social-icon me-3"><i class="bi bi-github"></i></i></a>
+      <a href="https://www.linkedin.com/in/nipon-pal-102b82203/" class="social-icon"><i class="bi bi-linkedin"></i></i></a>
+    </div>
+    <div class="text-center small">
+      Created By <span class="creator">Coding@Nipon</span> |
+      &copy; 2025 All  rights reserved.
+    </div>
+  </div>
+</footer>
+
+
+
+    <script src="./assets/js/bootstrap.bundle.js"> </script>
+    <script src="./assets/js/bootstrap.bundle.min.js"> </script>
+    <script src="./assets/js/Main.js"> </script>
+  <!--Froala Editor-->
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/froala-editor@latest/js/froala_editor.pkgd.min.js"></script>
+
+       <script>
+                new FroalaEditor("#froalaEditor");
+        </script>
+</body>
+</html>

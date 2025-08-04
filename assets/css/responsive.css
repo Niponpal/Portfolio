@@ -1,0 +1,22 @@
+@media (max-width: 768px) {
+    .header-bg {
+      height: auto;
+      padding: 60px 20px;
+      text-align: center;
+    }
+  
+    .header-bg .main_header h1 {
+      font-size: 2.5rem;
+    }
+  
+    .header-bg .main_header h2 {
+      font-size: 1.2rem;
+    }
+  
+    #role {
+      font-size: 1.5rem;
+      display: block;
+      text-align: center;
+    }
+  }
+  

@@ -1,0 +1,152 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  overflow-x: hidden;
+   
+}
+
+:root{
+    --primary-color:000;
+    --secondary-color:000;
+    --color-white:white;
+    --color-black:black;
+    --size-lg:2.5rem;
+    --size-md:1.5rem;
+    --size-sm:.90rem;
+}
+
+/* <!-- Navbar Start --> */
+.Nav_bar  .container .navbar-brand{
+    font-size: var(--size-lg);
+    letter-spacing: 4px;
+    color: white;
+    margin-top: var(--size-sm);
+}
+
+.Nav_bar  .container .navbar-brand .Portfolio_Spain{
+    color: red;
+
+}
+.Nav_bar .navbar{
+    background-color:#4c737eb8;
+}
+
+ .Nav_bar .navbar .container .collapse  .navbar-nav .nav-item .nav-link {
+    font-size: var(--size-md);
+    color: white;
+    letter-spacing: 2px;
+}
+
+.Nav_bar .navbar .container .collapse  .navbar-nav .nav-item .nav-link:hover{
+    font-size: var(--size-md);
+    color: red;
+    letter-spacing: 2px;
+}
+/*<!-- Navbar End--> ------------------------------------------------------------*/
+/*<!-- Typewrite-Areat Start --> ------------------------------------------------*/
+.typewriter #role::after {
+    content: "|";
+    animation: blink 0.7s infinite;
+  }
+
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+
+  .header-bg {
+    position: relative;   /* needed for pseudo-element positioning */
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    overflow: hidden;
+    width: 100%;
+    height: 85vh;
+  }
+  
+  .header-bg::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image: url('../images/protfolio.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5; /* adjust opacity here */
+    z-index: -1; /* send behind content */
+  }
+  .header-bg .main_header h2{
+    color: rgb(17 84 206);
+    font-weight: 1000; 
+  }
+  .header-bg .main_header h1{
+
+    color:  var(--color-black) !important;
+    font-size: 4rem;
+  }
+  .header-bg .main_header .typewriter {
+    color: black;       
+    font-weight: 500;    
+  }  
+
+  #role {
+    color:var(--color-black) !important;
+    font-weight: inherit;
+    font-weight: 900;
+    font-size: var(--size-lg);
+  }
+  /*<!-- Typewrite-Area End -------------------------------> */
+  /*<!-- My Services Area Staert ----------------------> */
+
+  .bg-dark .My-services .bg-dark{
+    background-color: rgba(0, 0, 0, 0.377) !important;
+    
+  }
+  .bg-dark .My-services .bg-dark:hover{
+    background-color: #DC143c !important;
+
+  }
+  /* <!----------------My Skill Areat Start------------------------------>*/
+
+  /*<!----------------My Contace Area Start------------------------------>*/
+  .Contact-me .Icons {
+       background-color: #f8f9fa;
+    font-size: 40px;
+    color: #b37070;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact-me .name-filed {
+    font-size: 18px;
+    text-align: left;
+}
+
+  /*<!----------------My Footer Area Start------------------------------>*/
+
+.custom-footer {
+    background-color: #0e0e0e;
+    font-family: 'Poppins', sans-serif;
+}
+
+.social-icon {
+    font-size: 24px;
+    color: #fff;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: crimson;
+}
+
+.creator {
+    color: crimson;
+}
+
+
+ 
+  
